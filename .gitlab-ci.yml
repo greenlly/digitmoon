@@ -7,8 +7,8 @@ build:
   stage: build
   variables: 
     # Replace this with your site URL
-    PUBLIC_URL: https://greenly.gitlab.io/matalak-temp
-    # PUBLIC_URL: https://matalak.gq/
+    # PUBLIC_URL: https://greenly.gitlab.io/matalak-temp
+    PUBLIC_URL: https://matalak.gq/
   script:
     - yarn install      # Run `yarn install` and `yarn build`
     - yarn build
