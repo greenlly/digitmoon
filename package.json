@@ -1,7 +1,6 @@
 {
   "name": "ant-design-tsx",
   "version": "0.1.0",
-  "homepage": ".",
   "private": true,
   "dependencies": {
     "@ant-design/dark-theme": "^2.0.2",
