@@ -2,7 +2,7 @@ import React from "react";
 import { message, PageHeader, Typography, Button } from "antd";
 import Login from "./Login"
 import Write from "./Write"
-import Register from "./register"
+import Register from "./Register"
 
 const { Link, Text } = Typography;
 

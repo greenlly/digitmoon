@@ -15,8 +15,8 @@ class Login extends React.Component {
         })
         const { firstName, lastName, email, age, username, password } = values;
         const data = {
-            firstName: firstName,
-            lastName: lastName,
+            first_name: firstName,
+            last_name: lastName,
             email: email,
             age: age,
             username: username,
