@@ -1,5 +1,6 @@
 {
   "name": "ant-design-tsx",
+  "homepage": "/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
