@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "./static/css/main.40314184.chunk.css",
-    "main.js": "./static/js/main.df2537ef.chunk.js",
-    "main.js.map": "./static/js/main.df2537ef.chunk.js.map",
-    "runtime-main.js": "./static/js/runtime-main.4250b01f.js",
-    "runtime-main.js.map": "./static/js/runtime-main.4250b01f.js.map",
-    "static/css/2.5bc206ac.chunk.css": "./static/css/2.5bc206ac.chunk.css",
-    "static/js/2.b6c21570.chunk.js": "./static/js/2.b6c21570.chunk.js",
-    "static/js/2.b6c21570.chunk.js.map": "./static/js/2.b6c21570.chunk.js.map",
-    "static/js/3.c306a877.chunk.js": "./static/js/3.c306a877.chunk.js",
-    "static/js/3.c306a877.chunk.js.map": "./static/js/3.c306a877.chunk.js.map",
-    "index.html": "./index.html",
-    "static/css/2.5bc206ac.chunk.css.map": "./static/css/2.5bc206ac.chunk.css.map",
-    "static/css/main.40314184.chunk.css.map": "./static/css/main.40314184.chunk.css.map",
-    "static/js/2.b6c21570.chunk.js.LICENSE.txt": "./static/js/2.b6c21570.chunk.js.LICENSE.txt"
+    "main.css": "/digitmoon/static/css/main.40314184.chunk.css",
+    "main.js": "/digitmoon/static/js/main.df2537ef.chunk.js",
+    "main.js.map": "/digitmoon/static/js/main.df2537ef.chunk.js.map",
+    "runtime-main.js": "/digitmoon/static/js/runtime-main.f9805c33.js",
+    "runtime-main.js.map": "/digitmoon/static/js/runtime-main.f9805c33.js.map",
+    "static/css/2.5bc206ac.chunk.css": "/digitmoon/static/css/2.5bc206ac.chunk.css",
+    "static/js/2.0ebac62a.chunk.js": "/digitmoon/static/js/2.0ebac62a.chunk.js",
+    "static/js/2.0ebac62a.chunk.js.map": "/digitmoon/static/js/2.0ebac62a.chunk.js.map",
+    "static/js/3.c306a877.chunk.js": "/digitmoon/static/js/3.c306a877.chunk.js",
+    "static/js/3.c306a877.chunk.js.map": "/digitmoon/static/js/3.c306a877.chunk.js.map",
+    "index.html": "/digitmoon/index.html",
+    "static/css/2.5bc206ac.chunk.css.map": "/digitmoon/static/css/2.5bc206ac.chunk.css.map",
+    "static/css/main.40314184.chunk.css.map": "/digitmoon/static/css/main.40314184.chunk.css.map",
+    "static/js/2.0ebac62a.chunk.js.LICENSE.txt": "/digitmoon/static/js/2.0ebac62a.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.4250b01f.js",
+    "static/js/runtime-main.f9805c33.js",
     "static/css/2.5bc206ac.chunk.css",
-    "static/js/2.b6c21570.chunk.js",
+    "static/js/2.0ebac62a.chunk.js",
     "static/css/main.40314184.chunk.css",
     "static/js/main.df2537ef.chunk.js"
   ]
