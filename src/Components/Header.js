@@ -73,17 +73,17 @@ class Header extends React.Component {
                     title={
                         <Link href="http://localhost:3000/">
                             <Text >
-                                مطلک
+                                دیجیت‌موون
                             </Text>
                         </Link>
                     }
                     subTitle={
                         <Text type="secondary">
-                            تلخ بخند!
+                            ماه دیجیتال ما
                         </Text>
                     }
                     avatar={{
-                        src: "https://image.flaticon.com/icons/png/512/4470/4470626.png"
+                        src: "https://image.flaticon.com/icons/png/512/3094/3094156.png"
                     }}
                     extra={this.state.logged ? [
                         <Button className="header-home-button" key="2" type="dashed" danger onClick={this.logout} loading={this.state.logoutSpin}>
