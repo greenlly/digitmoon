@@ -2,6 +2,8 @@ import React from "react";
 import { message, Modal, Form, Input, Button } from "antd";
 import API from "../api";
 
+const { TextArea } = Input;
+
 class Write extends React.Component {
     constructor(props) {
         super(props);
@@ -140,7 +142,8 @@ class Write extends React.Component {
                         name="content"
                         rules={[{ required: true, message: 'لطفا محتوای اصلی مطلک خود را وارد کنید!' }]}
                     >
-                        <Input
+                        <TextArea
+                            autoSize={true}
                             value={content}
                             defaultValue={content}
                             onChange={this.contentHandler}
