@@ -2,6 +2,8 @@ import React from "react";
 import { message, Modal, Form, Input, Button } from "antd";
 import API from "../api";
 
+const { TextArea } = Input;
+
 class Write extends React.Component {
     constructor(props) {
         super(props);
@@ -91,7 +93,7 @@ class Write extends React.Component {
         const { title, descriptions, content } = this.state;
         return (
             <Modal
-                title="مطلک بگو!"
+                title="مطلب بگو!"
                 visible={visible}
                 onOk={onOk}
                 onCancel={onCancel}
@@ -106,7 +108,7 @@ class Write extends React.Component {
             >
                 <Form
                     {...layout}
-                    name="محتویات مطلک خود را وارد کنید"
+                    name="محتویات مطلب خود را وارد کنید"
                     initialValues={{ remember: true }}
                     onFinish={this.onFinish}
                     onFinishFailed={this.onFinishFailed}
@@ -114,7 +116,7 @@ class Write extends React.Component {
                     <Form.Item
                         label="عنوان"
                         name="title"
-                        rules={[{ required: true, message: 'لطفا عنوان مطلک خود را وارد کنید!' }]}
+                        rules={[{ required: true, message: 'لطفا عنوان مطلب خود را وارد کنید!' }]}
                     >
                         <Input
                             value={title}
@@ -126,7 +128,7 @@ class Write extends React.Component {
                     <Form.Item
                         label="توضیحات"
                         name="descriptions"
-                        rules={[{ required: true, message: 'لطفا توضیحات مطلک خود را وارد کنید!' }]}
+                        rules={[{ required: true, message: 'لطفا توضیحات مطلب خود را وارد کنید!' }]}
                     >
                         <Input
                             value={descriptions}
@@ -138,9 +140,10 @@ class Write extends React.Component {
                     <Form.Item
                         label="محتوای اصلی"
                         name="content"
-                        rules={[{ required: true, message: 'لطفا محتوای اصلی مطلک خود را وارد کنید!' }]}
+                        rules={[{ required: true, message: 'لطفا محتوای اصلی مطلب خود را وارد کنید!' }]}
                     >
-                        <Input
+                        <TextArea
+                            autoSize={true}
                             value={content}
                             defaultValue={content}
                             onChange={this.contentHandler}
