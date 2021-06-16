@@ -17,7 +17,7 @@ class Matalak extends React.Component {
                         </Text>
                     }
                 >
-                    <Paragraph>
+                    <Paragraph style={{ whiteSpace: 'pre-line' }}>
                         {content}
                     </Paragraph>
                 </Card>
