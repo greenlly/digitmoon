@@ -45,7 +45,7 @@ class Write extends React.Component {
                 Authorization: "Bearer " + token
             }
         }
-        API.post("article", JSON.stringify(data), header)
+        API.post("articles", JSON.stringify(data), header)
             .then(result => {
                 if (result.status === 200) {
                     console.log("PogChamp!", result.data);

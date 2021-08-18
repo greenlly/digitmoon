@@ -6,7 +6,7 @@ const token = localStorage.getItem("access_token");
 const API = axios.create({
     baseURL: 'https://sabzi-go-rest-api.herokuapp.com/',
     // baseURL: 'http://127.0.0.1:8090/',
-    // baseURL: 'https://cors-anywhere.herokuapp.com/https://api.minecrafty.tk/',
+    // baseURL: 'https://cors-anywhere.herokuapp.com/https://sabzi-go-rest-api.herokuapp.com/',
     headers: {
         Authorization: "Bearer " + token
     }
