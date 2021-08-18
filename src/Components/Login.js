@@ -22,7 +22,7 @@ class Login extends React.Component {
             username: username,
             password: password
         }
-        API.post("user/login", JSON.stringify(data))
+        API.post("users/login", JSON.stringify(data))
             .then(result => {
                 if (result.status === 200) {
                     console.log("PogChamp!", result.data);

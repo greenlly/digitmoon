@@ -20,7 +20,7 @@ class App extends React.Component {
     })
   }
   componentDidMount = () => {
-    API.get("article")
+    API.get("articles")
       .then(result =>
         this.setState({
           spinning: false,
